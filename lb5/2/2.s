@@ -25,11 +25,11 @@ n2:
 WRITE ADX_NO, ADX_NO.len
 EXIT
 SECTION .data
-BMI2: DB "BMI2 - Присутсвует", 0xA
+BMI2: DB "BMI2 - Присутствует", 0xA
 .len: EQU $ - BMI2
-BMI2_NO: DB "BMI2 - Отсутсвует", 0xA
+BMI2_NO: DB "BMI2 - Отсутствует", 0xA
 .len: EQU $ - BMI2_NO
-ADX: DB "ADX - Присутсвует", 0xA
+ADX: DB "ADX - Присутствует", 0xA
 .len: EQU $ - ADX
-ADX_NO: DB "ADX - Отсутсвует", 0xA
+ADX_NO: DB "ADX - Отсутствует", 0xA
 .len: EQU $ - ADX_NO
